@@ -4,7 +4,5 @@ class Uzivatel:
         self.last_name = last_name
         self.age = age
 
-        pass
-
     def print_info(self) -> None:
         print(f'Meno: {self.first_name}, Priezvisko: {self.last_name}, Vek: {self.age}')
